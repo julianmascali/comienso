@@ -1,0 +1,210 @@
+
+*{ margin: 0px;
+   padding: 0px;
+}
+    
+
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/pared-blanca-fondo-textura_24836-60.jpg?w=2000)
+
+}
+.logo{background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-galaxy-sky-blue-picture-image_1599308.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:45px ;
+    margin-top: auto;
+    padding: 30px;   
+/* menu de pricipal*/   
+}
+
+.menu{
+    background-image: url(https://fondosmil.com/fondo/32026.jpg);
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;      
+}
+    
+ul{
+    list-style-type: none;      
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+  background-image: url(https://img.freepik.com/fotos-premium/purple-crystals-are-scattered-together-in-pile-on-table-generative-ai_958192-28981.jpg);
+
+}
+/* menu de pricipal*/   
+
+
+ /* imagenes de inicio */   
+
+#im{
+    
+    width: 1890px;
+    height: 600px;
+}
+.noticias{
+   display: flex;
+   margin-top: 20px;
+    
+}
+.img1{
+    width: 300Px;
+    height: 300px;
+
+}
+.img2{
+    width: 300Px;
+    height: 300px;
+
+}
+
+ /* imagenes de inicio */
+ /*contacto*/
+
+
+
+ /* contacto*/
+ 
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;  
+
+}
+
+p{
+    text-align: center;
+    font-family: 'Forum', cursive;
+}
+
+#hl{
+    font-size: 30px;
+    text-align: center;
+}
+/*especialidades*/
+
+.container{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px  300px  ;
+  grid-template-rows: 200px 200px ;
+  justify-content: center;
+
+}
+
+.listaimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;     
+}
+/*especialidades*/
+
+/*quiene somos*/
+#ha{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foto p{
+    text-align: center;
+    display: flex;
+}
+.abogadauno{
+    width: 300Px;
+    height: 400px;
+
+}
+.foto q{
+    text-align: center;
+    display: flex;
+
+}
+.abogadados{
+
+    width: 300Px;
+    height: 400px;
+}
+/*quiene somos*/
+
+/*dondeencontrarnos*/
+#hb{
+   font-size:40px ;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1{
+    font-size: 25px;
+    display: inline-flex;
+}
+.m{
+    display: flex;
+    width:200px ;
+    height:200px ;
+}
+.inst{
+    width:40px;
+    height: 40px;
+    color: crimson;
+}
+.face{
+    width:40px;
+    height: 40px
+}
+
+.container{ 
+ background-image: url();
+ max-width: 1200px;
+ margin: auto;
+}
+.footer{
+    padding: 80px 0;
+   
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-links h3{
+    
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid coral;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+
+}
+.footer-links ul li a {
+   font-size: 18px;
+   text-decoration: none;
+   color: rgb(27, 25, 25);
+   display: block;
+   margin-bottom: 15px;
+  
+}
+
+/*dondeencontrarnos*/
+
+.p_text{
+   font-size:20px ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #0c0c0c;
+ 
+}
+.container_1{
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+}
