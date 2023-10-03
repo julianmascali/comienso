@@ -12,7 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:45px ;
     margin-top: auto;
-    padding: 30px;   
+    padding: 20px;   
 /* menu de pricipal*/   
 }
 
@@ -53,29 +53,37 @@ ul{
     height: 600px;
 }
 .noticias{
-   display: flex;
-   margin-top: 20px;
+    display: flex;
+    margin-top: 20px;
+     
+ }
+ .img1{
+     width: 300Px;
+     height: 300px;
+ 
+ }
+ .img2{
+     width: 300Px;
+     height: 300px;
+}
     
-}
-.img1{
-    width: 300Px;
-    height: 300px;
-
-}
-.img2{
-    width: 300Px;
-    height: 300px;
-
+.carrusel{
+    height: 1100px;
+    width: 1100px;
+    
 }
 
  /* imagenes de inicio */
  /*contacto*/
-
-
+.formulario{
+ padding: 5px;
+ background: url(https://www.noahsmarchfoundation.org/wp-content/uploads/2020/10/laws-that-should-be-changed-800x533.jpg);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border: solid 5px;
+}
 
  /* contacto*/
  
-
 h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;  
@@ -87,11 +95,13 @@ p{
     font-family: 'Forum', cursive;
 }
 
-#hl{
-    font-size: 30px;
-    text-align: center;
-}
 /*especialidades*/
+
+#hl{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .container{
   text-align: center;
@@ -105,7 +115,9 @@ p{
 .listaimg{
     width: 200px;
     height: 200px;
-    border-radius: 60px;     
+    border-radius: 60px;  
+    
+       
 }
 /*especialidades*/
 
