@@ -49,24 +49,35 @@ ul{
 
  /* imagenes de inicio */   
 
+ .cont{
+    width: 100%;
+    max-width: 1000PX;
+    margin:0 auto;
+    overflow: hidden;
+}
 #im{
     
-    width: 1890px;
-    height: 600px;
+    width: 100%;
+    
 }
 .noticias{
-    display: grid;
-    margin-top: 20px;
-    justify-items: start;   
+    width: 60%;   
+    background-color: black;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
 }
 .img1{
-     width: 500Px;
-     height: 300px;
- 
+     width: 60%;  
  }
 .img2{
-     width: 500Px;
-     height: 300px;
+    width: 60%;
+
+}
+
+.lorem{
+    color: azure;
 }
 #h2titulo{
     font-size: 40px;
@@ -195,3 +206,12 @@ p{
 }
 
 /*dondeencontrarnos*/
+@media screen and (max-width:800px) {
+     
+}
+@media screen and (max-width:400px) {
+    .cont{
+        width:100% ;
+    }
+     
+}
