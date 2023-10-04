@@ -12,7 +12,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:45px ;
     margin-top: auto;
-    padding: 20px;   
+    padding: 20px;  
+   
+    
+
 /* menu de pricipal*/   
 }
 
@@ -40,7 +43,6 @@ ul{
 }
 .menu li a:hover{
   background-image: url(https://img.freepik.com/fotos-premium/purple-crystals-are-scattered-together-in-pile-on-table-generative-ai_958192-28981.jpg);
-
 }
 /* menu de pricipal*/   
 
@@ -53,27 +55,25 @@ ul{
     height: 600px;
 }
 .noticias{
-    display: flex;
+    display: grid;
     margin-top: 20px;
-     
- }
- .img1{
-     width: 300Px;
+    justify-items: start;   
+}
+.img1{
+     width: 500Px;
      height: 300px;
  
  }
- .img2{
-     width: 300Px;
+.img2{
+     width: 500Px;
      height: 300px;
 }
-    
-.carrusel{
-    height: 1100px;
-    width: 1100px;
-    
+#h2titulo{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* imagenes de inicio */
 
- /* imagenes de inicio */
  /*contacto*/
 .formulario{
  padding: 5px;
@@ -81,20 +81,15 @@ ul{
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  border: solid 5px;
 }
-
  /* contacto*/
- 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;  
-
+    font-size: 40px;   
 }
-
 p{
     text-align: center;
     font-family: 'Forum', cursive;
 }
-
 /*especialidades*/
 
 #hl{
@@ -102,22 +97,17 @@ p{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .container{
   text-align: center;
   display: grid;
   grid-template-columns: 300px 300px 300px 300px  300px  ;
   grid-template-rows: 200px 200px ;
   justify-content: center;
-
 }
-
 .listaimg{
     width: 200px;
     height: 200px;
-    border-radius: 60px;  
-    
-       
+    border-radius: 60px;          
 }
 /*especialidades*/
 
@@ -133,12 +123,10 @@ p{
 .abogadauno{
     width: 300Px;
     height: 400px;
-
 }
 .foto q{
     text-align: center;
     display: flex;
-
 }
 .abogadados{
 
@@ -207,16 +195,3 @@ p{
 }
 
 /*dondeencontrarnos*/
-
-.p_text{
-   font-size:20px ;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: #0c0c0c;
- 
-}
-.container_1{
-    display: flex;
-    flex-direction: row-reverse;
-
-    
-}
