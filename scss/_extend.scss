@@ -1,0 +1,13 @@
+%fuenteusual{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.titulo{
+    @extend %fuenteusual;
+}
+.subtitulo{
+    @extend %fuenteusual
+}
+.texto {
+    @extend %fuenteusual
+}

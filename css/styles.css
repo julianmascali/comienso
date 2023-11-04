@@ -1,196 +1,214 @@
+/*variables*/
+/*variables*/
+/*extend*/
+.texto, .subtitulo, .titulo {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
 
+/*extend*/
 /* generales */
-*{ margin:0px;
-   padding:0px; 
-}   
-.fondo{
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fondo {
   width: 100%;
 }
-.titulo{
-    color: #ffffff;
-    align-items: center;
-}
-.subtitulo{
-    font-family:'Times New Roman', Times, serif;
-    font-size:40px;   
-    text-align: center;
-}
-.texto{
-    text-align:center;
-    font-family:'Times New Roman', Times, serif; 
-}
-.logoimg{
-    height:60px;
-    margin-right:10px;   
+
+.titulo {
+  color: #ffffff;
+  align-items: center;
 }
 
-.menu{
-    background: url(https://img.freepik.com/fotos-premium/fondos-pantalla-negros-que-son-android_546042-716.jpg);
-    text-align:center;
-    font-size:20px;
-    padding:2px;
-    font-family:'Times New Roman', Times, serif;
-    border: solid black;
-    list-style-type: none;
+.subtitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
+
+.texto {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
-.menu li a{
-    text-decoration:none;
-    color:#ffffff;
-    padding: 20px;
-    display: block;
+
+.logoimg {
+  height: 60px;
+  margin-right: 10px;
 }
-.menu li a:hover{
-    background: url(https://img.lovepik.com/background/20211022/large/lovepik-creative-black-texture-background-image_500945454.jpg);
-    border-radius: 25px;
+
+.menu {
+  background: url(https://img.freepik.com/fotos-premium/fondos-pantalla-negros-que-son-android_546042-716.jpg);
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+  font-family: "Times New Roman", Times, serif;
+  border: solid #000;
+  list-style-type: none;
 }
-.footer{
-    background-color: #3c3c4b;
-    padding:  5%;
-    clear:both;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+
+.menu li {
+  display: inline-block;
+  text-align: center;
 }
-.footer-row{
-    display:flex;
-    flex-wrap:wrap;   
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  display: block;
 }
-.footer-links{
-    width: 25%;
-    padding: 0 15px;
+
+.menu li a:hover {
+  background: url(https://img.lovepik.com/background/20211022/large/lovepik-creative-black-texture-background-image_500945454.jpg);
+  border-radius: 25px;
 }
-.footer-links h4{
-    font-size:20px;
-    color:#ede3e3;
-    margin-bottom:25px;
-    font-weight:500;
-    border-bottom:2px solid #00c3ff;
-    padding-bottom: 10px;
-    display: inline-block;
+
+.footer {
+  background-color: #3c3c4b;
+  padding: 5%;
+  clear: both;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: #ede3e3;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #00c3ff;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 
 .footer-links ul li a {
-   font-size:18px;
-   text-decoration:none;
-   color:#bbbbbb;
-   display:block;
-   margin-bottom: 15px; 
-   transition: all .3s ease;
+  font-size: 18px;
+  text-decoration: none;
+  color: #bbbbbb;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
 }
-.footer-links ul li a:hover{
- color:#ffffff;
- padding-left: 6px;
- 
+
+.footer-links ul li a:hover {
+  color: #ffffff;
+  padding-left: 6px;
 }
-.social-links a{
-    display: inline-block;
-    min-height:40px;
-    width: 40px;
-    background-color: rgba(240, 232, 232, 0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all .5 ease;
+
+.social-links a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: #3c3c4b;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5 ease;
 }
-.piedepag{
-    color:#bbbbbb;
-    font-family: 'Times New Roman', Times, serif;
+
+.piedepag {
+  color: #bbbbbb;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*generales*/
-
- 
-
- /* index */   
-.noticias{
-    width:60%;   
-    padding:20px;
-    float:left;
-    box-sizing:border-box;
-    text-align:center;
+/* index */
+.noticias {
+  width: 60%;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
 }
-.imagenmain{
-   
-     width:60%; 
-     box-shadow: 0px 0px 30px #000;
-     align-items: center;
+
+.imagenmain {
+  width: 60%;
+  box-shadow: 0px 0px 30px #000;
+  align-items: center;
 }
-.texto{
-    color:rgb(12, 12, 12);
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+
+.texto {
+  color: #000;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* index */
+/*contacto*/
+.formulario {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
 
- /*contacto*/
-.formulario{
- padding: 10px;
- font-family:'Times New Roman', Times, serif;
- text-align: center;
+fieldset {
+  border: 0;
 }
-fieldset{
-    border: 0;
+
+input {
+  display: block;
+  margin: 0 auto;
 }
-input{
-    display:block;
-    margin: 0 auto;
+
+label {
+  display: inline-block;
+  vertical-align: top;
 }
-label{
-    display: inline-block;
-    vertical-align: top;
+
+/* contacto*/
+/*dondeencontrarnos*/
+.redes {
+  width: 5%;
+  height: 5%;
 }
- /* contacto*/
+
+.redeslink {
+  text-align: center;
+}
 
 /*dondeencontrarnos*/
- .redes{
-     width:5%;
-     height:5%;
- }
- .redeslink{
-    text-align: center;
- }
- 
- /*dondeencontrarnos*/
-
-
 /*especialidades*/
-
-.container{
+.container {
   display: grid;
-  grid-template-columns: 
-  repeat(
-    auto-fit,
-    minmax(150px, 1fr)
-  );
-  gap:30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
   text-align: center;
   padding: 10px;
 }
-.listaimg{
-   border-radius: 8px;  
-   width: 100%;
-   height:60%;
-   box-shadow: 0px 0px 30px #000;    
+
+.listaimg {
+  border-radius: 8px;
+  width: 100%;
+  height: 60%;
+  box-shadow: 0px 0px 30px #000;
 }
+
 /*especialidades*/
+/*quienes somos*/
+.abogadas {
+  width: 100%;
+  height: 100%;
+}
 
 /*quienes somos*/
-.abogadas{
+@media screen and (max-width: 480px) {
+  .cont {
     width: 100%;
-    height: 100%;
+  }
 }
-/*quienes somos*/
 
-
-
-@media screen and (max-width:480px) {
-    .cont{
-        width:100% ;
-    } 
-}
+/*# sourceMappingURL=styles.css.map */
