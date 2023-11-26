@@ -11,63 +11,80 @@
     <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap"rel="stylesheet">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-    <meta name="Estudio Juridico Derechos Online" content="Asesoramiento juridico, derecho laboral, penal, civil y comercial, familia y previsional">
+    <meta name="Estudio Juridico Derechos Online" content="Asesoramiento juridico, derecho laboral, penal, civil y comercial, familia y previsional, noticias, moratoria, alquileres"/>
 </head>
 <body>
-    <header>
-      <div> 
-        <img class="fondo"src="img/fondo.jpg" width="100%">
-      </div>
-      <div class="menu">
-        <img src="./img/logo.jpeg"alt=""class="logoimg">
+  <header>
+    <div class="menu">        
+      <img class="fondo"src="img/fondo.jpg">
+      <img src="./img/logo.jpeg"alt="imagen del logo del estudio jurídico"class="logoimg">
       <h1 class="titulo">Derechos Online</h1>
-         <nav>
-           <ul>
-             <li><a href="./index.html">Inicio</a></li>
-             <li><a href="./pages/contactos.html">Contacto</a></li>
-             <li><a href="./pages/dondeencontrarnos.html">¿Dónde encontrarnos?</a></li>
-             <li><a href="./pages/especialidades.html">Especialidades</a></li>
-             <li><a href="./pages/quienesomos.html">¿Quiénes somos?</a></li>
-          </ul>  
-        </nav>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.jpeg" width="30" height="30" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="opciones">   
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contactos.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/dondeencontrarnos.html">¿Dónde Encontrarnos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/especialidades.html">Especialidades</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/quienesomos.html">¿Quienes somos?</a>
+          </li>         
+        </ul>
       </div>
-    </header>
-  <main>  
-     <h2 class="subtitulo">Ultimas noticias</h2>
-    <section>
-        <div class="noticias ">
-           <div>
-             <img class="imagenmain"src="./img/noticiauno.jpg"alt="imagen sobre noticias"/>
-             <p class="texto">NUEVA MORATORIA PREVISIONAL.<br> A través de la Ley 27.705 se implementó nueva moratoria previsional en ANSES. 
-             <br> Esta Ley permitirá la compra de años de aportes a quienes tienen la edad jubilatoria.-<br> Como novedad, se permite la regularización de aportes a los trabajadores en actividad</p>
-          </div>
-          <div>
-            <img class="imagenmain"src="./img/alquiler.jpeg"alt="imagenes sobre noticias"/>
-            <p class="texto">NUEVA LEY DE ALQUILERES.<br> La norma n° 27.737 fue sancionada el pasado 10 de octubre de 2023.- <br> Esta Ley definió el plazo mínimo de los contratos de alquiler, manteniendo los 3 años, con actualización semestral a partir del coeficiente casa propia. Asimismo, se prohibe la publicación de los alquileres en precio dólar.- </p> 
-          </div>   
-        </div>
-    </section>
-    <section>
-      <p><img class="imagenmov" alt="Nuevo valor jus" height="198" onmouseout="this.src='./img/valorjus.jpg';" onmouseover="this.src='./img/jubilados.jpg'"; src="./img/anses.png"/></p>
-    </section>
-  </main>
+    </nav>
+  </header>
+
+<main>  
+  <h2 class="subtitulo">Ultimas noticias</h2>
+  <section>
+    <div class="noticias ">
+      <div>
+        <img class="imagenmain"src="./img/noticiauno.jpg"alt="imagen sobre noticias de moratoria previsional"/>
+        <p class="texto">NUEVA MORATORIA PREVISIONAL.<br> A través de la Ley 27.705 se implementó nueva moratoria previsional en ANSES. 
+        <br> Esta Ley permitirá la compra de años de aportes a quienes tienen la edad jubilatoria.-<br> Como novedad, se permite la regularización de aportes a los trabajadores en actividad</p>
+      </div>
+      <div>
+        <img class="imagenmain"src="./img/alquiler.jpeg"alt="imagenes sobre noticias de nueva ley de alquileres"/>
+        <p class="texto">NUEVA LEY DE ALQUILERES.<br> La norma n° 27.737 fue sancionada el pasado 10 de octubre de 2023.- <br> Esta Ley definió el plazo mínimo de los contratos de alquiler, manteniendo los 3 años. <br>La actualización será semestral a partir del coeficiente casa propia.<br> Asimismo, se prohibe la publicación de los alquileres en precio dólar.- </p> 
+      </div>   
+    </div>
+  </section>
+  <section>
+    <img class="imagenmov" alt="imagen con el Nuevo valor jus" height="198" onmouseout="this.src='./img/valorjus.jpg';" onmouseover="this.src='./img/jubilados.jpg'"/>
+  </section>
+</main>
 <footer class="footer">
-     <div class="footer row ">
-         <div class="footer-links">
-              <h4>NUESTRO ESTUDIO</h4>
-              <ul>
-                 <li><a href="./pages/quienesomos.html">Nosotros</a></li>
-                 <li><a href="./pages/especialidades.html">Nuestros servicios</a></li>
-                 <li><a href="./pages/contactos.html">Contáctanos</a></li>
-                 <li><a href="#">Política de privacidad</a></li>
-              </ul>
-                 <h4>SEGUINOS</h4>
-                 <div class="social-links">
-                    <a href="https://www.facebook.com/derechos.online.estudio/"><i class="fab fa-facebook-f"></i> </a>
-                    <a href="https://www.instagram.com/derechosonline/"><i class="fab fa-instagram"></i> </a>
-                 </div>
-        </div>
-      </div> 
+  <div class="footer row ">
+  <div class="footer-links">
+    <h4>NUESTRO ESTUDIO</h4>
+      <ul>
+        <li><a href="./pages/quienesomos.html">Nosotros</a></li>
+        <li><a href="./pages/especialidades.html">Nuestros servicios</a></li>
+        <li><a href="./pages/contactos.html">Contáctanos</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+      </ul>
+    <h4>SEGUINOS</h4>
+      <div class="social-links">
+        <a href="https://www.facebook.com/derechos.online.estudio/"><i class="fab fa-facebook-f"></i> </a>
+        <a href="https://www.instagram.com/derechosonline/"><i class="fab fa-instagram"></i> </a>
+      </div>
+  </div>
+  </div> 
 
   <p class="piedepag"> DERECHOS ONLINE.<br> TODOS LOS DERECHOS RESERVADOS <br> DOMICILIO LEGAL: Presidente Illia 890, ciudad de Pontevedra <br> estudiojuridico.dyv@outlook.com</p>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

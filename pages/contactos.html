@@ -5,85 +5,117 @@
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon"href="https://th.bing.com/th/id/R.6be86d9a82c36acdc996191b1fe38754?rik=Gm9Iek583UUMkw&riu=http%3a%2f%2fst2.depositphotos.com%2f2197868%2f7591%2fv%2f450%2fdepositphotos_75910709-stock-illustration-law-or-lawyer-seal-gold.jpg&ehk=vpuywfdgs3lJcdW73JAdDNH5Hrn4BoYflW5Uy%2fQEI0o%3d&risl=&pid=ImgRaw&r=0" type="image/x-icon">
     <link rel="stylesheet"href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Derechos  Online</title>
     <link rel="preconnect"href="https://fonts.googleapis.com">
     <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta name="Estudio Juridico Derechos Online Contactos" content="formulario para ingreso de datos, contactarse, consulta, enviar"/>
 </head>
 <body>
- <header>    
-    <div class="menu">
-      <img src="../img/logo.jpeg"alt=""class="logoimg">
+  <header>
+    <div class="menu">        
+      <img class="fondo"src="../img/fondo.jpg">
+      <img src="../img/logo.jpeg"alt="imagen del logo del estudio jurídico"class="logoimg">
       <h1 class="titulo">Derechos Online</h1>
-        <nav>
-             <ul>
-             <li><a href="../index.html">Inicio</a></li>
-             <li><a href="./contactos.html">Contacto</a></li>
-             <li><a href="./dondeencontrarnos.html">¿Dónde encontrarnos?</a></li>
-             <li><a href="./especialidades.html">Especialidades</a></li>
-             <li><a href="./quienesomos.html">¿Quiénes somos?</a></li>
-           </ul>
-        </nav>
     </div>
- </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.jpeg" width="30" height="30" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="opciones">   
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contactos.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/dondeencontrarnos.html">¿Dónde Encontrarnos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/especialidades.html">Especialidades</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/quienesomos.html">¿Quienes somos?</a>
+          </li>         
+        </ul>
+      </div>
+    </nav>
+  </header>
+
  <main>
-         <h2 class="subtitulo">Completa el siguiente formulario</h2>
-        <form class="formulario"action=""method="post"enctype="text/plain">
-            <fieldset>
-              <label for="nombreapellido">Nombre y apellido</label>
-              <input type="text"id="nombreapellido"name="nombreapellido" >
-            </fieldset>
-            <fieldset>
-              <label for="email">Dejanos tu Email</label>
-              <input type="email"id="email"name="email">
-            </fieldset>
-            <fieldset>
-              <label for="mensajeusuario">Detalle brevemente su consulta</label>
-              <br></br>
-              <textarea name="mensajeusuario"id="mensajeusuario"cols="30" rows="10"></textarea>
-            </fieldset>
-            <fieldset>
-              <h3 class="texto">¿Qué modalidad prefieres?</h3>
-              <t>Presencial</t>
-              <input  type="radio"name="modalidad"value="presencial"/>
-              <t> Virtual</t>
-              <input type="radio"name="modalidad"value="virtual"/>
-            </fieldset>
-            <fieldset>
-              <legend>¿En qué te podemos ayudar?</legend>
-              <select name=""id="">
-                <option value="p">Penal</option>
-                <option value="l">Laboral</option>
-                <option value="f">Familia</option>
-                <option value="c">Civil y Comercial</option>
-              </select>
-            </fieldset>
-              <div><input type="submit"value="Envianos tu Mensaje">
-              <input type="reset"value="borrar">
-              </div>
-        </form>
+    <h2 class="subtitulo">Completa el siguiente formulario</h2>
+  <div class="formulario">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Nombre completo</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Edad</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ingrese su dirección">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Teléfono de contacto</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Ingrese su número">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Detalle brevemente su consulta</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Especialidad</label>
+        <select id="inputState" class="form-select">
+          <option selected>Civil</option>
+          <option>Familia</option>
+      <option>Laboral</option>
+      <option>Previsional</option>
+      <option>Consumidor</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Indique si prefiere modalidad virtual</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+
   </main>
 <footer class="footer">
-      <div class="footer row ">
-          <div class="footer-links">
-               <h4>NUESTRO ESTUDIO</h4>
-               <ul>
-                  <li><a href="./pages/quienesomos.html">Nosotros</a></li>
-                  <li><a href="./pages/especialidades.html">Nuestros servicios</a></li>
-                  <li><a href="./pages/contactos.html">Contáctanos</a></li>
-                  <li><a href="#">Política de privacidad</a></li>
-               </ul>
-                  <h4>SEGUINOS</h4>
-                  <div class="social-links">
-                     <a href="https://www.facebook.com/derechos.online.estudio/"><i class="fab fa-facebook-f"></i> </a>
-                     <a href="https://www.instagram.com/derechosonline/"><i class="fab fa-instagram"></i> </a>
-                  </div>
-         </div>
-       </div> 
+  <div class="footer row ">
+  <div class="footer-links">
+  <h4>NUESTRO ESTUDIO</h4>
+    <ul>
+      <li><a href="./pages/quienesomos.html">Nosotros</a></li>
+      <li><a href="./pages/especialidades.html">Nuestros servicios</a></li>
+      <li><a href="./pages/contactos.html">Contáctanos</a></li>
+      <li><a href="#">Política de privacidad</a></li>
+    </ul>
+  <h4>SEGUINOS</h4>
+    <div class="social-links">
+      <a href="https://www.facebook.com/derechos.online.estudio/"><i class="fab fa-facebook-f"></i> </a>
+      <a href="https://www.instagram.com/derechosonline/"><i class="fab fa-instagram"></i> </a>
+    </div>
+  </div>
+  </div> 
  
-   <p class="piedepag"> DERECHOS ONLINE.<br> TODOS LOS DERECHOS RESERVADOS <br> DOMICILIO LEGAL: Presidente Illia 890, ciudad de Pontevedra <br> estudiojuridico.dyv@outlook.com</p>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <p class="piedepag"> DERECHOS ONLINE.<br> TODOS LOS DERECHOS RESERVADOS <br> DOMICILIO LEGAL: Presidente Illia 890, ciudad de Pontevedra <br> estudiojuridico.dyv@outlook.com</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </footer>
 </body>
 </html>
